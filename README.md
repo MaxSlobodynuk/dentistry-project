@@ -1,4 +1,4 @@
-# team-anonnymus
+# Dentistry-project
 
 Adaptive design, animations, REST API.
 
@@ -12,7 +12,7 @@ npm start
 
 Github repository - https://github.com/MaxSlobodynuk/dentistry-project
 
-Live page - https://serhiisavchak.github.io/team-anonnymus
+Live page - https://maxslobodynuk.github.io/dentistry-project/.
 
 ## Contacts
 
