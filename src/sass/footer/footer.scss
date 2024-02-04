@@ -1,7 +1,57 @@
+.footer {
+  background-color: $body-black-bg-color;
+}
+.first-section-footer{
+border-bottom: 2px solid $color-line;
+}
 
-.footer{
-    background-color:$body-black-bg-color;
+.title {
+  color: $white-text-color;
+  font-family: Inter, semi-bold;
+  margin-bottom: 30px;
+  font-size:22px;
+  line-height: calc(27/22);
 }
-.title{
+
+.adres{
+font-family: Inter, semi-bold;
+font-size: 13px;
+line-height: calc(18/13);
+color: $white-text-color;
+margin-bottom: 10px;
+text-transform: uppercase;
+
+}
+.contact{
+font-family: Inter, semi-bold;
+font-size: 13px;
+line-height: calc(18/13);
+color: $grey-text-8-color;
+margin-bottom: 30px;
+
+}
+.contact-margin{
+    margin-bottom: 5px;
+}
+.btn{
+    width: 215px;
+    height: 30px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+    
+}
+.second-section-footer{
+    border-bottom: 2px solid $color-line;
+}
+.second-footer-title{
+    font-family: Merriweather, bold;
+    font-size: 13px;
+    line-height: calc(20/13);
     color: $white-text-color;
+    text-transform: uppercase;
+    
+    
 }
+
+
+
