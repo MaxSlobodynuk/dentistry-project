@@ -36,12 +36,7 @@
 .contact-margin {
   margin-bottom: 5px;
 }
-// .btn {
-//   width: 215px;
-//   height: 30px;
-//   border-radius: 50px;
-//   margin-bottom: 25px;
-// }
+
 .second-section-footer {
   border-bottom: 2px solid $color-line;
 }
@@ -51,4 +46,22 @@
   line-height: calc(20 / 13);
   color: $white-text-color;
   text-transform: uppercase;
+}
+.footer-relative{
+  position: relative;
+  margin-bottom: 25px;
+}
+.footer-icon-arrow {
+  fill: $body-black-bg-color;
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+.second-footer-title{
+  margin: 25px 0;
+}
+
+.icon-en{
+  fill:white;
 }

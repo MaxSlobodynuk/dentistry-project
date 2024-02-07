@@ -1,0 +1,40 @@
+.about {
+  padding-top: 30px;
+}
+
+.about > .container{
+  border-bottom: solid 2px $grey-text-6-color;
+}
+.about-about {
+  font-family: 'Inter', Medium;
+  font-size: 13px;
+  line-height: calc(18 / 13);
+  margin-bottom: 10px;
+}
+
+.about-title {
+  font-family: 'Inter', Medium;
+  font-size: 25px;
+  line-height: calc(30 / 25);
+  margin-bottom: 15px;
+}
+
+.about-text {
+  font-family: 'Inter', Regular;
+  font-size: 13px;
+  line-height: calc(21 / 13);
+  color: $grey-text-7-color;
+  margin-bottom: 25px;
+  width: 285px;
+}
+.about-relative {
+  position: relative;
+  margin-bottom: 35px;
+}
+.icon-arrow {
+  fill: $body-white-bg-color;
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}

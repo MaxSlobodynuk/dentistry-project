@@ -5,7 +5,8 @@
   "homepage": "https://MaxSlobodynuk.github.io/dentistry-project",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /dentistry-project/"
+    "build": "parcel build src/*.html --public-url /dentistry-project/",
+    "format": "prettier --write \"**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,8 @@
     "@parcel/transformer-sass": "^2.6.0",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
+    "posthtml-include": "^1.7.4",
+    "prettier": "3.2.5"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }

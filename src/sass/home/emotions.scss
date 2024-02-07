@@ -1,0 +1,28 @@
+.emotions{
+padding-top: 45px;
+
+}
+.emotions > .container{
+    border-bottom: solid 2px $grey-text-6-color;
+}
+
+.emotions-title{
+font-family: 'Inter', Medium;
+font-size: 22px;
+line-height: calc(27/22);
+margin-bottom: 20px;
+}
+.emotions-list{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 45px;
+}
+.emotions-img{
+margin-bottom: 10px;
+}
+.emotions-name{
+    font-family: 'Merriweather', Regular;
+    font-size: 11px;
+    line-height: calc(14/11);
+}
+
