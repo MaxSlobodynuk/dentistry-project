@@ -1,9 +1,10 @@
 .footer {
-  width: 285px;
   background-color: $body-black-bg-color;
-  outline: solid 2px green;
+  padding: 35px 0 20px 0;
+}
+.container-footer {
+  width: 285px;
   margin: 0 auto;
-  padding: 35px 20px 20px 20px;
 }
 .first-section-footer {
   border-bottom: 2px solid $color-line;
@@ -35,12 +36,12 @@
 .contact-margin {
   margin-bottom: 5px;
 }
-.btn {
-  width: 215px;
-  height: 30px;
-  border-radius: 50px;
-  margin-bottom: 25px;
-}
+// .btn {
+//   width: 215px;
+//   height: 30px;
+//   border-radius: 50px;
+//   margin-bottom: 25px;
+// }
 .second-section-footer {
   border-bottom: 2px solid $color-line;
 }

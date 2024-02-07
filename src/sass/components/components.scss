@@ -1,0 +1,18 @@
+.btn{
+    display: inline-block;
+    font-size: 13px;
+    line-height: calc(18/13);
+    padding: 8px 41px 8px 15px;
+    border-radius: 50px;
+    border: 1px solid $body-black-bg-color;
+    
+    }
+    .btn.primary{
+        background-color: $body-black-bg-color;
+        color: $white-text-color;
+        border-color: transparent;
+    }
+    .btn.secondary{
+        background-color: $body-white-bg-color;
+        color: $black-text-color;
+    } 
