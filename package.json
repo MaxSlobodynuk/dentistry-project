@@ -5,7 +5,8 @@
   "homepage": "https://MaxSlobodynuk.github.io/dentistry-project",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /dentistry-project/"
+    "build": "parcel build src/*.html --public-url /dentistry-project/",
+    "format": "prettier --write \"**/*.js\""
   },
   "repository": {
     "type": "git",

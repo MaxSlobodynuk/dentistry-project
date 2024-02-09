@@ -1,0 +1,40 @@
+.doctors {
+  padding-bottom: 45px;
+  
+  
+}
+.doctors > .container{
+  border-bottom: solid 2px $grey-text-6-color;
+}
+.doctors-flex{
+  margin-bottom: 45px;
+}
+
+.section-title {
+  font-family: 'Inter', medium;
+  font-size: 22px;
+  line-height: calc(27 / 22);
+  margin-bottom: 20px;
+}
+.doctors-together {
+  display: flex;
+  gap: 15px;
+}
+.doctor-img {
+  margin-bottom: 10px;
+}
+.doctor-name {
+  margin-bottom: 2px;
+  font-family:
+    'Inter',
+    Semi Bold;
+  font-size: 13px;
+  line-height: calc(18 / 13);
+}
+.doctor-place {
+  font-family: 'Inter', Regular;
+  font-size: 13px;
+  line-height: calc(18 / 13);
+  color: $grey-text-6-color;
+  width: 150px;
+}
