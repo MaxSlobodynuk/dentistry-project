@@ -1,0 +1,74 @@
+.hero {
+    background-image: url('.././images/hero-img.jpg');
+    height: 550px;
+    background-position: center;
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+
+.hero-container{
+    margin-bottom: 75px;
+}
+
+.hero-title{
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 34px;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.hero-title-ital{
+    color: #ffffff;
+    font-family: Merriweather;
+    font-size: 32px;
+    line-height: calc(40 / 32);
+    font-style: italic;
+    font-weight: 400;
+}
+
+.hero-paragraph{
+    color: #CCC;
+    font-family: Inter;
+    font-size: 13px;
+    line-height: calc(18 / 13);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.hero-button{
+    position: relative;
+    display: inline-flex;
+    column-gap: calc(11*0.3125vw);
+    padding: 8px calc(41*0.3125vw) 8px calc(15*0.3125vw);
+    border-radius: 50px;
+    border: 1px solid;
+    background: #ffffff;
+    border-color: #666;
+    transition: all .5s;
+    font-family: Inter;
+    color: #171717;
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: calc(18 / 13);
+}
+
+.hero-button::before{
+    content: "";
+    display: block;
+    height: 10px;
+    width: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: filter .5s;
+    right: 16px;
+    background: url('https://feloniuk.com.ua/wp-content/themes/feloniuk/assets/img/btn_arr_b.svg') center/contain no-repeat;
+}
