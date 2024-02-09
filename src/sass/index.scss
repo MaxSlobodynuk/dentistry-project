@@ -8,12 +8,14 @@
 
 /* layout */
 @import './header/header';
+@import './home/hero.scss';
+@import './home/services.scss';
+@import './home/consultation.scss';
 @import './home/doctors.scss';
 @import './home/images-section.scss';
 @import './home/about-us.scss';
 @import './home/emotions.scss';
 @import './home/instagram-slider.scss';
-
 @import './footer/footer';
 
 //* components *//
