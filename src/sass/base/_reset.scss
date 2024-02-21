@@ -8,7 +8,9 @@ h6,
 p {
   margin: 0;
 }
-
+a{
+  text-decoration: none;
+}
 .container {
   max-width: 280px;
   margin: 0 auto;
@@ -21,10 +23,10 @@ p {
 }
 
 
-.link {
-  color: inherit;
-  text-decoration: none;
-}
+// .link {
+//   color: inherit;
+//   text-decoration: none;
+// }
 
 button {
   cursor: pointer;
