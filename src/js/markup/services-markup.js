@@ -8,6 +8,7 @@ const markup = problems.map(item => `
     <h3 class="services-container-title">${item.name}</h3>
     <p class="services-container-paragraph">${item.description}</p>
 </li>`
-).join('');
+).join('')
+
 
 container.innerHTML = markup;

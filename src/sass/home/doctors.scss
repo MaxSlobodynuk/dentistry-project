@@ -16,10 +16,13 @@
   line-height: calc(27 / 22);
   margin-bottom: 20px;
 }
-.doctors-together {
-  display: flex;
-  gap: 15px;
+.doctor-item{
+  width: 150px;
 }
+// .doctors-together {
+//   display: flex;
+//   gap: 15px;
+// }
 .doctor-img {
   margin-bottom: 10px;
 }
@@ -38,3 +41,5 @@
   color: $grey-text-6-color;
   width: 150px;
 }
+
+
