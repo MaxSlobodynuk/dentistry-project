@@ -1,18 +1,17 @@
 .mobile-menu {
-  position: absolute;
-  top: 0;
-  right: 10%;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
   z-index: 111111;
   background-color: $body-black-bg-color;
   color: $white-text-color;
-  width: 100%;
-  height: 100vh;
+  top: 0;
+  left: 0;
   padding: 15px 20px 20px 20px;
 }
 .menu-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+position: relative;
   margin-bottom: 25px;
 }
 .title-menu {
@@ -20,25 +19,48 @@
   line-height: calc(14 / 11);
   font-family: Merriweather, ital;
 }
-.mobil-menu-btn{
-    background-color: transparent;
-    border: none;
+.mobil-menu-btn {
+  position: absolute;
+  top: -2px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+}
+.container-menu{
+  position: relative;
+  padding-bottom: 110px;
+
 }
 
-.menu-btn{
-    fill: $white-text-color;
+.menu-btn {
+  fill: $white-text-color;
+  background-color: transparent;
 }
 
 .menu-list {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  max-width: 252px;
 }
 
-.item-list-menu{
-    border-bottom: 1px solid #3E3E3E;
-    padding-bottom: 5px;
-    font-size: 18px;
-    line-height: calc(28/18);
-    font-family: Inter, regular;
+.item-list-menu {
+  border-bottom: 1px solid #3e3e3e;
+  padding-bottom: 5px;
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  font-family: Inter, regular;
+}
+.mob-footer-container{
+  padding-bottom: 30px;
+  padding-top: 35px;
+  border-top: 1px solid #3e3e3e;
+}
+
+@media screen and (min-width: 767px) {
+  .mobile-menu {
+    display: none;
+  }
 }
