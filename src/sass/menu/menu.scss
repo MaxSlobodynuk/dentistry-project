@@ -8,11 +8,11 @@
   background-color: $body-black-bg-color;
   color: $white-text-color;
   opacity: 0;
-  transition: opacity 550ms, transform 550ms;
+  transition: opacity 500ms, transform 550ms;
   transform: translateY(-100%);
 }
 
-.mobile-menu.is-transformMenu {
+.is-transformMenu {
   opacity: 1;
   transform: translateY(0);
 }
