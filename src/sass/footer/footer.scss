@@ -39,17 +39,19 @@
 
 .second-section-footer {
   border-bottom: 2px solid $color-line;
+  padding: 25px 0 25px 0;
 }
-.second-footer-title {
+.menu-section-item {
   font-family: Merriweather, bold;
   font-size: 13px;
   line-height: calc(20 / 13);
   color: $white-text-color;
   text-transform: uppercase;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
-.footer-relative{
+
+.footer-relative {
   position: relative;
   margin-bottom: 25px;
 }
@@ -60,10 +62,10 @@
   left: 85%;
   transform: translate(-50%, -50%);
 }
-.second-footer-title{
+.second-footer-title {
   margin: 25px 0;
 }
-.nav-footer{
+.nav-footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -71,8 +73,9 @@
   gap: 27px;
   margin-top: 20px;
 }
-.footer-icon-chevron{
+.footer-icon-chevron {
   fill: white;
+  margin: 0;
 }
 
 .footer-list-icon {
@@ -81,23 +84,57 @@
   gap: 8px;
 }
 .footer-soc-item {
- width: 37px;
- height: 35px;
- background-color: $body-white-bg-color;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
- 
+  width: 37px;
+  height: 35px;
+  background-color: $body-white-bg-color;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.footer-soc-link{
-width: 100%;
-height: 100%;
-
-
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
 }
-
-@media screen and (min-width: 767px){
-  
+.link-for-submenu {
+  display: flex;
+  justify-content: space-between;
 }
 
+.menu-section {
+  display: flex;
+  flex-direction: column;
+}
+.submenu {
+
+  display: none;
+
+}
+
+.menu-section-item:hover .submenu {
+  display: block;
+}
+
+.item-submenu {
+  font-family: Inter, semi-bold;
+  font-size: 13px;
+  line-height: calc(18 / 13);
+  color: $grey-text-8-color;
+  text-transform: none;
+  // margin-bottom: 5px;
+}
+.item-submenu:not(:last-child){
+  margin-bottom: 5px;
+}
+.item-submenu:nth-child(1){
+  margin-top: 10px;
+}
+
+.menu-section-item:not(:last-child)  {
+  margin-bottom: 20px;
+}
+.link-for-submenu:hover .footer-icon-chevron {
+  transform: rotate(180deg);
+}
+@media screen and (min-width: 767px) {
+}
