@@ -136,8 +136,12 @@
   width: 195px;
 }
 @media screen and (min-width: 767px) {
+  .footer {
+  
+  }
   .container-footer {
-    width: 1345px;
+    width: 1340px;
+    margin: 0 50px;
   }
   .first-section-footer {
     padding: 75px 0 75px 0;
@@ -194,19 +198,26 @@
   }
   .social-section {
     display: flex;
-    gap: 178.64px;
+    gap: 113px;
     border-bottom: 2px solid #3e3e3e;
   }
-  .second-section-footer { 
+  .second-section-footer {
     order: 2;
     width: calc(100% - 320px);
     padding: 0;
     border-bottom: none;
+    padding: 67px 0 67px 0;
   }
   .third-section-footer {
     order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     width: 320px;
     border-right: 2px solid #3e3e3e;
+    border-left: 2px solid #3e3e3e;
+    // padding: 67px 0px 67px 0px;
   }
   .logo-footer {
     width: 186.36px;
@@ -220,38 +231,50 @@
     display: flex;
     padding: 0;
     margin: 67px 0 74px 0;
-    
   }
-  .menu-section{
-    width:828px ;
+  .menu-section {
     flex-direction: row;
+    gap: 76px;
   }
-  .link-for-submenu{
-    display:block;
-    
-  }
-  .footer-icon-chevron{
-    display: none;
-  }
-  .submenu{
+  .link-for-submenu {
     display: block;
   }
-  .footer-soc-item{
+  .footer-icon-chevron {
+    display: none;
+  }
+  .submenu {
+    display: block;
+  }
+  .footer-soc-item {
     width: 48px;
     height: 40px;
   }
-  .footer-soc-icon{
+  .footer-soc-icon {
     width: 18px;
     height: 18px;
   }
   .menu-section-item {
+    width: 150px;
     font-size: 18px;
-    line-height: calc(22/18);
-   
+    line-height: calc(22 / 18);
+  }
+  .item-submenu {
+    font-size: 16px;
+    line-height: calc(22 / 16);
+  }
+  .fourth-footer-section {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .last-footer-title {
+    font-family: Inter, semi-bold;
+    font-size: 13px;
+    line-height: calc(18 / 13);
+    color: $grey-text-7-color;
+  }
+  .political {
+    display: flex;
+    gap: 25px;
+  }
 }
-.item-submenu{
-  font-size: 16px;
-  line-height: calc(22 / 16);
-}
-}
-
