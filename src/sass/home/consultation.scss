@@ -43,35 +43,45 @@
 
 .consultation-button {
   position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  column-gap: calc(11 * 0.3125vw);
-  padding: 8px calc(41 * 0.3125vw) 8px calc(15 * 0.3125vw);
-  border-radius: 50px;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: calc(18 / 13);
-  color: #fff;
-  text-align: center;
-  border: 1px solid;
-  border-color: #fff;
-  background: #171717;
-  transition: all 0.5s;
+  // display: inline-flex;
+  // align-items: center;
+  // justify-content: center;
+  // column-gap: calc(11 * 0.3125vw);
+  // padding: 8px calc(41 * 0.3125vw) 8px calc(15 * 0.3125vw);
+  // border-radius: 50px;
+  // font-weight: 500;
+  // font-size: 13px;
+  // line-height: calc(18 / 13);
+  border: $grey-text-7-color 1px solid;
+ 
+  // color: #fff;
+  // text-align: center;
+  // border: 1px solid;
+  // border-color: #fff;
+  // background: #171717;
+  // transition: all 0.5s;
 }
 
-.consultation-button::before {
-  content: '';
-  display: block;
-  height: 10px;
-  width: 18px;
+
+// .consultation-button::before {
+//   content: '';
+//   display: block;
+//   height: 10px;
+//   width: 18px;
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   transition: filter 0.5s;
+//   right: 16px;
+//   background: url('https://feloniuk.com.ua/wp-content/themes/feloniuk/assets/img/btn_arr_b.svg')
+//     center/contain no-repeat;
+// }
+.footer-icon-arro {
+  fill: $body-white-bg-color;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  transition: filter 0.5s;
-  right: 16px;
-  background: url('https://feloniuk.com.ua/wp-content/themes/feloniuk/assets/img/btn_arr_b.svg')
-    center/contain no-repeat;
+  left: 85%;
+  transform: translate(-50%, -50%);
 }
 @media screen and (min-width: 767px) {
   .consultation-container {
@@ -135,4 +145,5 @@
   //     right: 16px;
   //     background: url('https://feloniuk.com.ua/wp-content/themes/feloniuk/assets/img/btn_arr_b.svg') center/contain no-repeat;
   // }
+
 }
