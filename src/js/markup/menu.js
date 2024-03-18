@@ -28,3 +28,22 @@ function keyEsc (e){
         onClose();
     }
 }
+
+
+// const main = document.querySelector('main');
+
+// console.log(main.children);
+
+// // Перетворення колекції на масив
+// const childrenArray = Array.from(main.children);
+// console.log(childrenArray);
+
+// // Використання методу map() для обробки кожного елемента
+// const newArr = childrenArray.filter(child => child.classList.contains('consultation'));
+// console.log(newArr);
+
+// if(window.screen.width > 760){
+//   main.appendChild(...newArr);
+
+
+// }
