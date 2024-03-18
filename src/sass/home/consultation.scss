@@ -1,74 +1,149 @@
-.consultation{
-    background: #171717;
-    padding-top: 25px;
-    padding-bottom: 25px;
+.consultation {
+  background: #171717;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-.consultation-container{
-    padding-top: 35px;
-    padding-bottom: 35px;
+.consultation-container {
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
-.consultation-paragraph{
-    color: #888;
-    font-family: Inter;
-    font-size: 13px;
-    line-height: calc(18 / 13);
-    font-weight: 400;
-    margin-bottom: 20px;
+.consultation-paragraph {
+  color: #888;
+  font-family: Inter;
+  font-size: 13px;
+  line-height: calc(18 / 13);
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
-.consultation-img{
-    border-radius: 0px 10px 10px 10px;
-    margin-bottom: 35px;
+.consultation-img {
+  border-radius: 0px 10px 10px 10px;
+  margin-bottom: 35px;
 }
 
-.consultation-title{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 25px;
-    line-height: calc(30 / 25);
-    font-weight: 500;
-    margin-bottom: 25px;
+.consultation-title {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  line-height: calc(30 / 25);
+  font-weight: 500;
+  margin-bottom: 25px;
 }
 
-.consultation-title-ital{
-    color: #FFF;
-    font-family: Merriweather;
-    font-size: 25px;
-    line-height: calc(30 / 25);
-    font-style: italic;
-    font-weight: 400;
+.consultation-title-ital {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 25px;
+  line-height: calc(30 / 25);
+  font-style: italic;
+  font-weight: 400;
 }
 
-.consultation-button{
-    position: relative;
-    display: inline-flex;
+.consultation-button {
+  position: relative;
+  // display: inline-flex;
+  // align-items: center;
+  // justify-content: center;
+  // column-gap: calc(11 * 0.3125vw);
+  // padding: 8px calc(41 * 0.3125vw) 8px calc(15 * 0.3125vw);
+  // border-radius: 50px;
+  // font-weight: 500;
+  // font-size: 13px;
+  // line-height: calc(18 / 13);
+  border: $grey-text-7-color 1px solid;
+ 
+  // color: #fff;
+  // text-align: center;
+  // border: 1px solid;
+  // border-color: #fff;
+  // background: #171717;
+  // transition: all 0.5s;
+}
+
+
+// .consultation-button::before {
+//   content: '';
+//   display: block;
+//   height: 10px;
+//   width: 18px;
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   transition: filter 0.5s;
+//   right: 16px;
+//   background: url('https://feloniuk.com.ua/wp-content/themes/feloniuk/assets/img/btn_arr_b.svg')
+//     center/contain no-repeat;
+// }
+.footer-icon-arro {
+  fill: $body-white-bg-color;
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (min-width: 1100px) {
+  .consultation-container {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin: 0 50px;
+    display: flex;
+    gap: 246px;
     align-items: center;
-    justify-content: center;
-    column-gap: calc(11*0.3125vw);
-    padding: 8px calc(41*0.3125vw) 8px calc(15*0.3125vw);
-    border-radius: 50px;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: calc(18 / 13);
-    color: #fff;
-    text-align: center;
-    border: 1px solid;
-    border-color: #fff;
-    background: #171717;
-    transition: all .5s;
-}
+  }
 
-.consultation-button::before{
-    content: "";
-    display: block;
-    height: 10px;
-    width: 18px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: filter .5s;
-    right: 16px;
-    background: url('https://feloniuk.com.ua/wp-content/themes/feloniuk/assets/img/btn_arr_b.svg') center/contain no-repeat;
+  .consultation-paragraph {
+    font-size: 14px;
+    line-height: calc(20 / 14);
+  }
+
+  .consultation-img {
+    margin-bottom: 0;
+    height: 136px;
+  }
+
+  .consultation-title {
+    font-size: 49px;
+    line-height: calc(62 / 49);
+    font-weight: 400;
+  }
+
+  .consultation-title-ital {
+    font-size: 49px;
+    line-height: calc(58 / 49);
+  }
+
+  // .consultation-button{
+  //     position: relative;
+  //     display: inline-flex;
+  //     align-items: center;
+  //     justify-content: center;
+  //     column-gap: calc(11*0.3125vw);
+  //     padding: 8px calc(41*0.3125vw) 8px calc(15*0.3125vw);
+  //     border-radius: 50px;
+  //     font-weight: 500;
+  //     font-size: 13px;
+  //     line-height: calc(18 / 13);
+  //     color: #fff;
+  //     text-align: center;
+  //     border: 1px solid;
+  //     border-color: #fff;
+  //     background: #171717;
+  //     transition: all .5s;
+  // }
+
+  // .consultation-button::before{
+  //     content: "";
+  //     display: block;
+  //     height: 10px;
+  //     width: 18px;
+  //     position: absolute;
+  //     top: 50%;
+  //     transform: translateY(-50%);
+  //     transition: filter .5s;
+  //     right: 16px;
+  //     background: url('https://feloniuk.com.ua/wp-content/themes/feloniuk/assets/img/btn_arr_b.svg') center/contain no-repeat;
+  // }
+
 }
